@@ -7,8 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  temp = groceries.flatten
-  temp
-
-
+  return_array = []
+  groceries.each do |category|
+    return_array.concat(category)
+  end
+  return_array
 end
