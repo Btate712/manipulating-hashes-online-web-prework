@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
   return_array = []
-  groceries.each do |category|
-    return_array.concat(category)
+  groceries.each do |category, items|
+    return_array.concat(items)
   end
   return_array
 end
